@@ -1,0 +1,41 @@
+<style type='text/css'>
+    .image-slider {
+      position: relative;
+    }
+
+    .image {
+      width: 100%;
+      height: 500px;
+      box-shadow: 3px 3px #888888, -3px -3px #888888;
+    }
+
+    .fade.ng-hide {
+      transition:0.5s linear all;
+      opacity:0;
+    }
+    
+    .left-arrow {
+      position: absolute;
+      left: 35px;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 40px;
+    }
+    .left-arrow:hover {
+      color: grey;
+    }
+
+    .right-arrow {
+      position: absolute;
+      right: 5px;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 40px;
+    }
+    .right-arrow:hover {
+      color: grey;
+    }
+
+  </style>

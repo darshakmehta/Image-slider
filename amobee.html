@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amobee ImageSlider </title>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js'></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+
+  <body>
+    <div ng-app>
+    <h2>Image Slider</h2>
+    <div class="container image-slider" ng-controller="ImageSliderController">
+      <i ng-click="backwardImage()" class="fas fa-arrow-left left-arrow"></i>
+      <img class="image-responsive image" src = {{currentImage}} alt="Image not available" />
+      <i ng-click="forwardImage()" class="fas fa-arrow-right right-arrow"></i>
+    </div>
+  </div>
+
+    
+  </body>
+</html>
