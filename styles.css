@@ -19,7 +19,6 @@
       left: 35px;
       top: 50%;
       transform: translate(-50%, -50%);
-      color: white;
       font-size: 40px;
     }
     .left-arrow:hover {
@@ -31,7 +30,6 @@
       right: 5px;
       top: 50%;
       transform: translate(-50%, -50%);
-      color: white;
       font-size: 40px;
     }
     .right-arrow:hover {
